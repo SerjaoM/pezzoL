@@ -19,8 +19,8 @@ export const OrgApiKeysPage = () => {
           <section>
             <h2>Pezzo API Keys</h2>
             <p className="mt-2 opacity-60">
-              Below you can find your Pezzo API key. This API key is provided to
-              the Pezzo Client when executing prompts.
+             Abaixo você pode encontrar sua chave API. Esta chave de API é fornecida para
+              o Cliente  ao executar prompts.
             </p>
 
             <div className="mt-4 max-w-[500px]">
@@ -35,9 +35,9 @@ export const OrgApiKeysPage = () => {
           <section>
             <h2>Provedor de  API Keys</h2>
             <p className="mt-2 opacity-60">
-              In order to be able to test your prompts within the Pezzo Console,
-              you must provide an API key for each provider you wish to test.
-              This is optional.
+             Para poder testar seus prompts no Console,
+              você deve fornecer uma chave de API para cada provedor que deseja testar.
+              Isso é opcional..
             </p>
 
             <div className="mt-4 max-w-[500px]">
