@@ -354,7 +354,7 @@ export const LoginPage = () => {
                     loading={emailPasswordLoading}
                     onClick={() => setIsEmail(true)}
                   >
-                    {verb} with Email
+                    {verb} com Email
                   </Button>
                 )}
               </div>
@@ -368,19 +368,19 @@ export const LoginPage = () => {
               >
                 {mode === "signin" ? (
                   <p className="mt-2 text-center text-sm leading-6">
-                    Don't have an account?{" "}
+                    Você não tem uma conta?{" "}
                     <Button
                       variant="link"
                       onClick={() => handleSetMode("signup")}
                       className="px-0"
                     >
-                      Sign up
+                      Entrar
                     </Button>
                     .
                   </p>
                 ) : (
                   <p className="mt-2 text-center text-sm leading-6">
-                    Already have an account?{" "}
+                    Sem conta?{" "}
                     <Button
                       variant="link"
                       onClick={() => {
