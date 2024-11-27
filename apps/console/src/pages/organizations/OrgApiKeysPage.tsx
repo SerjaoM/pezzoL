@@ -33,7 +33,7 @@ export const OrgApiKeysPage = () => {
 
         <Card className="mx-auto flex flex-col gap-y-6 p-10">
           <section>
-            <h2>Provider API Keys</h2>
+            <h2>Provedor de  API Keys</h2>
             <p className="mt-2 opacity-60">
               In order to be able to test your prompts within the Pezzo Console,
               you must provide an API key for each provider you wish to test.
