@@ -75,7 +75,7 @@ export const PromptsPage = () => {
           <h1>Prompts</h1>
           <Button onClick={handleCreatePrompt}>
             <PlusIcon className="mr-2 h-4 w-4" />
-            New Prompt
+            Novo prompt
           </Button>
         </div>
       </div>
@@ -109,7 +109,7 @@ export const PromptsPage = () => {
               onClick={handleCreatePrompt}
             >
               <PlusIcon className="h-5 w-5 font-medium opacity-70" />
-              Create your first prompt
+              Crie seu primeiro prompt
             </Card>
           )}
         </div>
