@@ -49,9 +49,9 @@ export const AcceptInvitationPage = () => {
       {orgName && (
         <>
           <CheckIcon className="h-28 w-28 text-green-500" />
-          <h1>You're in!</h1>
+          <h1>Você está dentro!</h1>
           <p className="text-muted-foreground">
-            You have successfully joined ${orgName}! Redirecting...
+           Você se inscreveu em ${orgName} com sucesso! Redirecionando...
           </p>
         </>
       )}
