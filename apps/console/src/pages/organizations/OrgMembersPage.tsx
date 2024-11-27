@@ -36,7 +36,7 @@ export const OrgMembersPage = () => {
 
       <div className="mb-6 border-b border-b-border">
         <div className="container flex h-24 items-center">
-          <h1>Members</h1>
+          <h1>Membros</h1>
         </div>
       </div>
 
@@ -44,12 +44,12 @@ export const OrgMembersPage = () => {
         <Card className="mx-auto flex flex-col gap-y-6 p-10">
           <section>
             <div className="mb-4 flex items-center justify-between gap-4">
-              <h2>Members</h2>
+              <h2>Membris</h2>
               <div>
                 {isOrgAdmin && (
                   <Button onClick={onOpenInviteModal}>
                     <Plus className="mr-2 h-4 w-4" />
-                    Invite Member
+                    Convidar colaborador
                   </Button>
                 )}
               </div>
@@ -63,7 +63,7 @@ export const OrgMembersPage = () => {
           <Card className="mx-auto flex flex-col gap-y-6 p-10">
             <section>
               <div className="mb-4 flex items-center justify-between gap-4">
-                <h2>Invitations</h2>
+                <h2>Convites</h2>
               </div>
               <OrgInvitationsList invitations={invitations} />
             </section>
