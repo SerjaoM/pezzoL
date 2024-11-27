@@ -36,13 +36,13 @@
 }
 
 .MuiGrid-root .css-sghohy-MuiButtonBase-root-MuiButton-root {
-  background-color: #11a071;
+  background-color: #FEAC02;
 }
 
 .MuiGrid-root .css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
-  background-color: #2fb584;
+  background-color: #FFC903;
 }
 
 .MuiGrid-root button:hover {
-  background-color: #11a0704a;
+  background-color: #feac02bf;
 }
