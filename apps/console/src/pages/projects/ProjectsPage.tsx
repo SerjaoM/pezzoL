@@ -105,14 +105,14 @@ export const ProjectsPage = () => {
           <DropdownMenuContent>
             <DropdownMenuItem onClick={(e) => handleRenameClick(e, project)}>
               <PencilIcon className="mr-2 h-4 w-4" />
-              Rename
+              Renomear
             </DropdownMenuItem>
             <DropdownMenuItem
               className="text-destructive"
               onClick={(e) => handleDeleteClick(e, project)}
             >
               <TrashIcon className="mr-2 h-4 w-4" />
-              Delete
+              Deletar
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
@@ -143,10 +143,10 @@ export const ProjectsPage = () => {
 
       <div className="mb-6 border-b border-b-border">
         <div className="container flex h-24 items-center justify-between">
-          <h1>Projects</h1>
+          <h1>Projetos</h1>
           <Button onClick={handleCreateNewProjectClick}>
             <PlusIcon className="mr-2 h-4 w-4" />
-            New Project
+            Novo Projeto
           </Button>
         </div>
       </div>
@@ -165,7 +165,7 @@ export const ProjectsPage = () => {
             onClick={handleCreateNewProjectClick}
           >
             <PlusIcon className="mb-1 h-7 w-7" />
-            New Project
+            Novo Projeto
           </Card>
         </div>
       </div>
