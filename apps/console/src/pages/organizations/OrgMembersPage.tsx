@@ -44,7 +44,7 @@ export const OrgMembersPage = () => {
         <Card className="mx-auto flex flex-col gap-y-6 p-10">
           <section>
             <div className="mb-4 flex items-center justify-between gap-4">
-              <h2>Membris</h2>
+              <h2>Membros</h2>
               <div>
                 {isOrgAdmin && (
                   <Button onClick={onOpenInviteModal}>
